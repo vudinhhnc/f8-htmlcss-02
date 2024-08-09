@@ -135,7 +135,7 @@ a {
     width: 470px;
     height: 685px;
     border-radius: 20px;
-    background-image: url(..//img/stats-image.jpg);
+    background-image: url(../img/stats-image.jpg);
     background-repeat: no-repeat;
 }
 
