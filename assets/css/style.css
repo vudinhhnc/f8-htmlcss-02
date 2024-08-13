@@ -605,3 +605,124 @@ a {
 .feedback .control-point .to-student:hover {
     background-color: orange;
 }
+
+/* ======Call-Action====== */
+
+.call-action {
+    margin-top: 200px;
+    background: #fff;
+}
+
+.call-action .content {
+    height: 438px;
+}
+
+.call-action .content .row {
+    background: #fff;
+}
+
+.call-action .content .row ~ .row {
+    margin-top: 200px;
+}
+
+.call-action .content .call-sign-up {
+    display: flex;
+    gap: 130px;
+}
+
+.call-action .call-sign-up .block-image {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    width: 570px;
+    height: 438px;
+}
+
+.call-action .block-image .thumb {
+    position: absolute;
+    display: inline-block;
+    width: 270px;
+    height: 405px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.call-action .block-image .thum-1 {
+    left: 0;
+    bottom: 0;
+}
+
+.call-action .block-image .thumb-2 {
+    top: 0;
+    right: 0;
+}
+
+.call-action .body {
+    width: 470px;
+}
+
+.call-action .body .title {
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.26; /* 126.316% */
+    letter-spacing: -0.76px;
+}
+
+.call-action .body .sub-title {
+    margin-top: 16px;
+    width: 458px;
+    color: #5f5b53;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+
+.call-action .body .btn {
+    margin-top: 32px;
+    min-width: 137px;
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+    border-radius: 26px;
+    background: #171100;
+}
+
+.call-action .body .btn:hover {
+    background: #ffb900;
+}
+
+.call-action .call-join-now {
+    display: flex;
+    gap: 130px;
+    align-items: center;
+}
+
+.call-action .call-join-now .block-image {
+    position: relative;
+    width: 470px;
+    height: 438px;
+}
+
+.call-action .call-join-now .block-image .thumb {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.call-action .call-join-now .body {
+    width: 570px;
+}
+
+.call-action .call-join-now .sub-title {
+    width: 570px;
+}
