@@ -114,8 +114,7 @@ a {
 /* ======main====== */
 /* =====hero===== */
 .hero {
-    /* background: #fffcf4; */
-    background-color: aqua;
+    background: #fffcf4;
 }
 
 .hero .content {
