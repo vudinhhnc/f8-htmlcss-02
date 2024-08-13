@@ -519,7 +519,7 @@ a {
 }
 
 .feedback .content {
-    padding-top: 96px;
+    padding: 96px 0;
     height: 380px;
 }
 
@@ -562,6 +562,7 @@ a {
 
 .feedback .student .student-comment {
     position: relative;
+    margin-top: 28px;
     width: 770px;
     height: 188px;
 }
