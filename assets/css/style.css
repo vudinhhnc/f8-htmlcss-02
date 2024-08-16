@@ -124,6 +124,29 @@ a {
     background-color: #ffb900;
 }
 
+/* ====circle-more-common==== */
+
+.control-point {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 30px;
+    height: 6px;
+}
+
+.control-point .btn {
+    display: inline-block;
+    padding: 0;
+    min-width: 6px;
+    height: 6px;
+    border-radius: 9999px;
+    background-color: #634700;
+}
+
+.control-point .btn:hover {
+    background-color: orange;
+}
+
 /* ======header====== */
 .header {
     display: flex;
@@ -557,11 +580,13 @@ header.fixed {
 }
 
 .feedback .content {
-    padding: 96px 0;
+    position: relative;
+    /* padding: 96px 0; */
     height: 380px;
 }
 
 .feedback .student {
+    padding-top: 96px;
     display: flex;
     gap: 241px;
 }
@@ -624,24 +649,8 @@ header.fixed {
 }
 
 .feedback .content .control-point {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    width: 30px;
-    height: 6px;
-}
-
-.feedback .control-point .to-student {
-    display: inline-block;
-    padding: 0;
-    min-width: 6px;
-    height: 6px;
-    border-radius: 9999px;
-    background-color: #634700;
-}
-
-.feedback .control-point .to-student:hover {
-    background-color: orange;
+    position: absolute;
+    bottom: 96px;
 }
 
 /* ======Call-Action====== */
@@ -851,4 +860,10 @@ header.fixed {
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+/* =======footer======== */
+.footer {
+    background: #2e2100;
+    height: 428px;
 }
