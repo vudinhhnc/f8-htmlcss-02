@@ -775,6 +775,7 @@ header.fixed {
 }
 
 .blogs .content {
+    position: relative;
     padding: 96px 0px;
     height: 878px;
     background: #fffcf4;
@@ -860,6 +861,13 @@ header.fixed {
     position: absolute;
     bottom: 0;
     left: 0;
+    justify-content: center;
+}
+
+/* ======more===== */
+.blogs .row .control-point {
+    position: absolute;
+    bottom: 96px;
 }
 
 /* =======footer======== */
