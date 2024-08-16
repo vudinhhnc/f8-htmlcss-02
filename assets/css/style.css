@@ -29,6 +29,7 @@ a {
     padding: 11px 0;
     min-width: 144px;
     border-radius: 9999px;
+    background-color: #171100;
     color: #fff;
     text-align: center;
     font-family: Poppins;
@@ -119,7 +120,7 @@ a {
     background-color: #171100;
 }
 
-.btn-action .atc:hover {
+.btn:hover {
     background-color: #ffb900;
 }
 
@@ -331,22 +332,27 @@ header.fixed {
     margin-top: 38px;
 }
 
-.hero .info .action .btn {
-    width: 180px;
-    height: 64px;
+.hero .info .action .action-see {
+    min-width: 180px;
+    padding: 17px 33px;
     border-radius: 32px;
-    background: #ffb900;
-    color: #fff;
+    text-align: center;
     font-size: 1.8rem;
-    line-height: 1.6; /* 166.667% */
+    font-weight: 600;
+    line-height: 1.67; /* 166.667% */
 }
 
 .hero .info .action .action-watch {
     display: flex;
+    align-items: center;
+}
+
+.hero .action-watch .btn-watch {
+    display: flex;
     margin-left: 38px;
 }
 
-.hero .info .action-watch {
+.hero .action-watch .btn-watch {
     position: relative;
     display: flex;
     justify-content: center;
@@ -358,20 +364,20 @@ header.fixed {
     border-radius: 9999px;
 }
 
-.hero .info .action-watch .Watch {
+.hero .action-watch.btn-watch .Watch {
     position: absolute;
     display: inline-block;
 }
 
-.hero .info .action-watch .pause {
+.hero .info .btn-watch .pause {
     display: inline-block;
-    border: 7.5px solid #ffb900;
+    border: 7.5px solid #171100;
     border-color: transparent;
-    border-left: 15px solid #ffb900;
+    border-left: 15px solid #171100;
     border-right: none;
 }
 
-.hero .info .action-watch .play {
+.hero .info .btn-watch .play {
     display: none;
     width: 15px;
     height: 15px;
@@ -379,16 +385,17 @@ header.fixed {
     border-right: 5px solid #ffb900;
 }
 
-.hero .info .action-watch:active .pause {
+.hero .info .btn-watch:active .pause {
     display: none;
 }
 
-.hero .info .action-watch:active .play {
+.hero .info .btn-watch:active .play {
     display: inline-block;
 }
 
-.hero .info .action .watch-video {
+.hero .info .action .sub-title {
     display: inline-block;
+    margin-top: 0;
     margin-left: 14px;
     color: #171100;
     font-family: Poppins;
