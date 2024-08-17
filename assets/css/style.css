@@ -37,7 +37,7 @@ a {
 }
 
 .btn:hover {
-    opacity: 0.9;
+    background-color: #ffb900;
 }
 
 /* ==list-items-common== */
@@ -118,10 +118,6 @@ a {
     font-weight: 600;
     line-height: 1.85; /* 185.714% */
     background-color: #171100;
-}
-
-.btn:hover {
-    background-color: #ffb900;
 }
 
 /* ====circle-more-common==== */
@@ -219,7 +215,6 @@ header.fixed {
 .navbar .action-click {
     font-size: 1.6rem;
     line-height: 1.75; /* 175% */
-    background: #171100;
 }
 
 /* ======main====== */
