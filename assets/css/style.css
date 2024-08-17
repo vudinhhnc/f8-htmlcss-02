@@ -868,5 +868,135 @@ header.fixed {
 /* =======footer======== */
 .footer {
     background: #2e2100;
+}
+
+.footer .content {
     height: 428px;
+}
+
+.footer .content .body {
+    position: relative;
+    display: flex;
+    padding-bottom: 38px;
+}
+
+.footer .content .body::after {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    content: "";
+    width: 1170px;
+    height: 1px;
+    background: #59554b;
+}
+
+.footer .list-item {
+    display: inline-block;
+    margin-top: 96px;
+    width: 267px;
+}
+
+.footer .list-item .logo {
+    width: 85px;
+    height: 34px;
+}
+
+.footer .list-item .slogan {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 0;
+    width: 267px;
+    height: 78px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85; /* 185.714% */
+}
+
+.footer .list-item .icon-social {
+    display: inline-block;
+    margin-top: 18px;
+    width: 111px;
+    height: 15px;
+    background-image: url(../img/Social.svg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.footer .list-item .title {
+    position: relative;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75; /* 175% */
+    margin-bottom: 28px;
+    padding-bottom: 14px;
+}
+
+.footer .list-item .address {
+    width: 231px;
+}
+
+.footer .list-item .title::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 130px;
+    height: 1px;
+    background: #59554b;
+}
+
+.footer .list-item .sub-title:first-child {
+    margin-top: 100px;
+}
+
+.footer .list-item .sub-title {
+    display: block;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85; /* 185.714% */
+}
+
+.footer .list-item .sub-title ~ .sub-title {
+    margin-top: 12px;
+}
+
+.footer .contact .contact {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.85; /* 185.714% */
+}
+
+.footer .contact .sub-contact {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.85; /* 185.714% */
+}
+
+.footer .company {
+    margin-left: 145px;
+}
+
+.footer .address {
+    margin-left: 137px;
+}
+
+.footer .copyright {
+    display: flex;
+}
+
+.footer .copyright .sub-title {
+    display: inline-block;
+    margin: 28px auto;
+    width: 357px;
+    height: 26px;
+    color: #807d74;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85; /* 185.714% */
 }
