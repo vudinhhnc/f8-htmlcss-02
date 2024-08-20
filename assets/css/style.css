@@ -120,6 +120,10 @@ a {
     background-color: #171100;
 }
 
+.btn-action .atc:hover {
+    background-color: #ffb900;
+}
+
 /* ====circle-more-common==== */
 
 .control-point {
